@@ -1,0 +1,35 @@
+# academic-pre-review-committee — 完整文本
+
+## 这是什么
+
+`academic-pre-review-committee` 是一个 Agent Skill，模拟期刊投稿前的多审稿人预审委员会。
+
+## 五位审稿人角色
+
+1. 理论贡献审稿人：是否提出新理论视角 / 概念框架
+2. 方法论审稿人：方法严谨性 / 可复现性 / 数据合理性
+3. 文献对话审稿人：是否与现有文献有效对话 / 定位清晰
+4. 逻辑链条审稿人：论证自洽 / 前提-结论一致 / 无跳跃
+5. 主编预筛：整体匹配度 / desk reject 判定
+
+每位审稿人独立给出评分与建议，最终汇总为预审结论。
+
+## 快速开始
+
+```bash
+git clone https://github.com/SynomosAI/academic-pre-review-committee.git
+cd academic-pre-review-committee
+cat SKILL.md
+```
+
+## 触发词
+
+学术预审 / 同行评审 / 论文评审 / desk reject / 投稿预审 / peer review。
+
+## 许可与权利
+
+MIT License。© 2026 注册老炮@MedXpert。完整条款见 LICENSE.md。
+
+## 链接
+
+- 仓库: https://github.com/SynomosAI/academic-pre-review-committee
